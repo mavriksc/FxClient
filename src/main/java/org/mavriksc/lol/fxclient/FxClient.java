@@ -34,7 +34,7 @@ public class FxClient extends Application {
         Parent rootNode = fxmlLoader.load();
 
         primaryStage.setTitle("LOL CLIENT");
-        Scene scene = new Scene(rootNode,1000,900);
+        Scene scene = new Scene(rootNode,1300,900);
         primaryStage.setScene(scene);
         primaryStage.show();
     }
